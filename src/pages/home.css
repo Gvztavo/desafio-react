@@ -1,0 +1,35 @@
+.mainCont{
+  background-color: rgba(0, 0, 0, 0.87);
+  overflow: hidden;
+  height: 100vh;
+}
+
+.recordMain{
+  background-color: rgba(0, 0, 0, 0.87);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+td{
+  font-weight:bold;
+}
+
+.alo{
+   font-size: 20px;
+    width: 700px;
+    text-align: center;
+    color: white;
+    border-style: solid;
+  }
+
+.record{
+  font-size: 70px;
+  color: white;
+  
+  animation-name: up;
+  animation-duration: 3000ms;
+  animation-fill-mode: backwards;
+}

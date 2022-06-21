@@ -1,0 +1,50 @@
+.buttonDiv{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+
+ animation-name: up;
+ animation-duration: 3000ms;
+ animation-fill-mode: backwards;
+}
+
+.button{
+  border: none;
+  border-radius: 10px;
+  color:rgba(0, 0, 0, 0.87) ;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 40px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buttonReq{
+  border: none;
+  border-radius: 10px;
+ 
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 40px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+ 
+}
+
+.button:hover {
+  background-color: #18978F;
+  color: white;
+}
+
+@keyframes up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transition: 1s;
+    transform: translateY(0);
+  }
+}
